@@ -1,0 +1,21 @@
+.jumbotron{
+    background-color: #f4511e;
+}
+h2{
+    text-transform: capitalize;
+}
+.fa-signal,.fa-globe{
+    font-size: 200px !important;
+    color: #f4511e;
+}
+#first{
+    background-color: #f6f6f6;
+}
+.one{
+    color: black;
+    font-size: 19px;
+}
+.two{
+    color: #818181;
+    font-size: 15px;
+}
