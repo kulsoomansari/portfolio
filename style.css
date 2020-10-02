@@ -19,7 +19,7 @@ h2{
     color: #818181;
     font-size: 15px;
 }
-.fa-power-off, .fa-heart, .fa-lock{
+.fa-power-off, .fa-heart, .fa-lock, .fa-leaf, .fa-certificate, .fa-wrench{
     color: #f4511e;
     font-size: 50px !important;
 }
