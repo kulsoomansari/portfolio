@@ -23,3 +23,14 @@ h2{
     color: #f4511e;
     font-size: 50px !important;
 }
+#portfolio{
+    background-color: #f6f6f6 !important;
+}
+.carousel-item{
+    font-size: 19px;
+    font-style: italic;
+    margin: 70px 0px;
+}
+.pull-right{
+    float: right !important;
+}
