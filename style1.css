@@ -51,13 +51,24 @@ body{
     top: 40%;
     left: 40%;
     border-top: 4px dashed white;
+    animation: road infinite 5s linear;
 }
 .road{
     width: 100%;
     height: 10px;
     position: absolute;
     top: 80%;
-    border-top: 8px dashed white;
+    left: 0%;
+    border-top: 8px dashed white; 
+    animation: road infinite 5s linear; 
+}
+@keyframes road{
+ 0%{
+     left: 0px;
+ }
+ 100%{
+     left: -1200px;
+ }
 }
 .pacman{
     width: 80px;
@@ -66,7 +77,16 @@ body{
     background-color: #f2d648;
     position: absolute;
     top: 60%;
-    left: 40%;
+    left: 44%;
+    animation: bounce 1s infinite;
+}
+@keyframes bounce{
+    0%, 100%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(30px);
+    }
 }
 .eye{
     width: 8px;
@@ -74,9 +94,36 @@ body{
     border-radius: 50%;
     background-color: black;
     position: absolute;
-    top: 63%;
-    left: 42.5%;
+    top: 30%;
+    left: 50%;
 }
 .mouth{
-    
+    width: 0;
+	height: 0;
+	border-top: 25px solid transparent;
+	border-right: 50px solid black;
+    border-bottom: 25px solid transparent;
+    position: absolute;
+    top: 35%;
+    left: 44%;
+
 }
+.eat{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 86%;
+    animation: food 0.7s infinite;
+}
+@keyframes food {
+    0% {
+      transform: translateX(30);
+    }
+    100% {
+      transform: translateX(-20px);
+    
+    }
+  }
