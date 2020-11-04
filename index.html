@@ -10,17 +10,50 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <title>Hello, world!</title>
+    <title>company portfolio</title>
   </head>
   <body>
-    <div class="jumbotron jumbotron-fluid">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        
+        <ul class="navbar-nav navbar-right">
+          <li class="nav-item">
+            <a class="nav-link" href="#about">about</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#services">services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#pricing">pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="jumbotron jumbotron-fluid text-center">
         <div class="container">
-          <h1 class="display-4">Fluid jumbotron</h1>
-          <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+          <h1 class="display-4 text-white">company</h1>
+          <p class="lead text-white">we specialize in blablabla</p>
         </div>
+        <form class="form-inline">
+        <div class="input-group mb-3">
+          <input type="email" class="form-control" size="50" placeholder="email address" aria-label="Recipient's username" aria-describedby="button-addon2">
+          <div class="input-group-append">
+            <button class="btn btn-danger" type="button" id="button-addon2">subscribe</button>
+          </div>
+        </div>
+      </form>
       </div>
 <!----start of about section----->
-<div class="container-fluid">
+<div class="container-fluid one">
     <div class="row">
         <div class="col-sm-8">
             <h2>about company page</h2>
@@ -29,27 +62,27 @@
             <br>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, reiciendis est mollitia quasi dignissimos incidunt repudiandae. Accusamus, veniam rerum blanditiis repellat perspiciatis assumenda ex optio aut odit, consequatur, laboriosam eum.</p>
             <br>
-            <p><button type="button" class="btn btn-secondary">get in touch</button</p>
+            <button type="button" class="btn btn-default btn-lg">get in touch</button>
         </div>
         <div class="col-sm-4"><i class="fa fa-signal"></i></div>
     </div>
 </div>
 <!---end of about section-->
 <!-----start of our values-->
-<div class="container-fluid" id="first">
+<div class="container-fluid values" id="first">
     <div class="row">
         <div class="col-sm-4">
             <i class="fa fa-globe"></i>
         </div>
         <div class="col-sm-8">
-            <h2 class="text-center">our values</h2>
+            <h2>our values</h2>
             <br>
-            <p class="one">
+            <p class="two">
                 <strong>MISSION:</strong>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde ipsum at nesciunt corporis quidem id consectetur eaque quas, nostrum corrupti doloribus error accusantium quo porro excepturi saepe. Quibusdam, cumque nobis!
             </p>
             <br>
-            <p class="two"><strong>VISION:</strong>
+            <p class="three"><strong>VISION:</strong>
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. In quo obcaecati possimus rerum doloribus dignissimos eveniet dolores. Pariatur vero et corporis. Ipsum voluptatibus neque voluptatem veniam consequatur suscipit veritatis adipisci?
             </p>
         </div>
@@ -57,10 +90,9 @@
 </div>
    <!-----end of our values-->
    <!-----start of services-----> 
-   <div class="container-fluid text-center">
-       <h2>servies</h2>
-       <br>
-       <h4>what we offer</h4>
+   <div class="container-fluid text-center px-4 py-5 services">
+       <h2>services</h2>
+       <h4>What we offer</h4>
        <br><br>
 <div class="row">
     <div class="col-sm-4"><i class="fa fa-power-off" aria-hidden="true"></i></div>
@@ -88,26 +120,34 @@
 </div>
 </div>
    <!----end of services---->
-<div class="container-fluid text-center" id="portfolio">
-    <br> <br>
+<div class="container-fluid text-center portfolio">
     <h2>PORTFOLIO</h2>
     <br>
     <h4>what we have created</h4>
     <div class="row">
-        <div class="col-sm-4"><img src="https://www.w3schools.com/bootstrap/paris.jpg" class="img-thumbnail" alt="">
+        <div class="col-sm-4">
+          <div class="thumbnail">
+        <img src="https://www.w3schools.com/bootstrap/paris.jpg" class="img-thumbnail" alt="">
         <p><strong>Paris</strong></p>
         <p>yes, we built Paris</p>
+      </div>
     </div>
-        <div class="col-sm-4"><img src="https://www.w3schools.com/bootstrap/newyork.jpg" class="img-thumbnail" alt="">
+        <div class="col-sm-4">
+          <div class="thumbnail">
+        <img src="https://www.w3schools.com/bootstrap/newyork.jpg" class="img-thumbnail" alt="">
         <p><strong>New york</strong></p>
         <p> we built Paris</p>
+      </div>
     </div>
-        <div class="col-sm-4"><img src="https://www.w3schools.com/bootstrap/sanfran.jpg" class="img-thumbnail" alt="">
+        <div class="col-sm-4">
+          <div class="thumbnail">
+        <img src="https://www.w3schools.com/bootstrap/sanfran.jpg" class="img-thumbnail" alt="">
         <p><strong>San francisco</strong></p>
-        <p>yes, we built Paris</p></div>
+        <p>yes, we built Paris</p>
+      </div>
+      </div>
     </div>
     <h2>what our customers say</h2>
-    <br><br>
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -116,39 +156,34 @@
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <h4>"One word... WOW!!"</h4>
-            <br>
-            <h4>John Doe, Salesman, Rep Inc</h4>
+            <h4>"One word... WOW!!"
+            <br> John Doe, Salesman, Rep Inc</h4>
           </div>
           <div class="carousel-item">
-            <h4>"Could I... BE any more happy with this company?"</h4>
-            <br>
-            <h4>Chandler Bing, Actor, FriendsAlot</h4>
+            <h4>"Could I... BE any more happy with this company?" <br>
+            Chandler Bing, Actor, FriendsAlot</h4>
           </div>
           <div class="carousel-item">
-           <h4>"This company is the best. I am so happy with the result!"</h4>
-           <br>
-           <h4>Michael Roe, Vice President, Comment Box</h4>
+           <h4>"This company is the best. I am so happy with the result!" <br>
+           Michael Roe, Vice President, Comment Box</h4>
           </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <i class="fa fa-chevron-left" aria-hidden="true"></i>
           <span class="sr-only">Previous</span>
         </a>
         <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <i class="fa fa-chevron-right" aria-hidden="true"></i>
           <span class="sr-only">Next</span>
         </a>
       </div>
 </div>
 <!----end of portfolio------>
 <!----start of pricing section---->
-<br><br>
-<div class="container-fluid text-center">
+<div class="container-fluid text-center pricing">
     <h2>Pricing</h2>
     <h4>Choose a payment plan that works for you</h4>
-    <br><br>
-    <div class="row">
+    <div class="row mb-5">
         <div class="col-sm-4">
             <div class="card" style="width: 18rem;">
                 <div class="card-header">
@@ -164,14 +199,14 @@
                 <h3>$19</h3>
                 <h4>per month</h4>
                 <br><br>
-                <a href="#" class="btn btn-primary">sign up</a>
+                <a href="#" class="btn btn-lg btn-danger">sign up</a>
               </div>
           </div>
         </div>
         <div class="col-sm-4">
             <div class="card" style="width: 18rem;">
                 <div class="card-header">
-                    <h1>Basic</h1>
+                    <h1>pro</h1>
                   </div>
             <div class="card-body">
               <p class="card-text"> <strong>20</strong>Lorem</p>
@@ -183,13 +218,13 @@
                 <h3>$19</h3>
                 <h4>per month</h4>
                 <br><br>
-                <a href="#" class="btn btn-primary">sign up</a>
+                <a href="#" class="btn btn-lg btn-danger">sign up</a>
               </div>
           </div>
         </div>
         <div class="col-sm-4"><div class="card" style="width: 18rem;">
             <div class="card-header">
-                <h1>Basic</h1>
+                <h1>premium</h1>
               </div>
             <div class="card-body">
               <p class="card-text"> <strong>20</strong>Lorem</p>
@@ -201,7 +236,7 @@
                 <h3>$19</h3>
                 <h4>per month</h4>
                 <br><br>
-                <a href="#" class="btn btn-primary">sign up</a>
+                <a href="#" class="btn btn-lg btn-danger">sign up</a>
               </div>
           </div>
         </div>
@@ -209,8 +244,7 @@
 </div>
     <!-----end of pricing section------->
     <!-----start of contact section----->
-    <div class="container-fluid">
-        <br><br>
+    <div class="container-fluid bg-grey">
         <h2 class="text-center">CONTACT</h2>
         <br>
         <div class="row">
@@ -222,20 +256,24 @@
             </div>
             <div class="col-sm-7">
                 <div class="row">
-                    <div class="col-sm-6"><input type="text" class="form-control" id="name" name="name" placeholder="Name" required></div>
-                    <div class="col-sm-6"><input type="text" class="form-control" id="email" name="email" placeholder="name" required></div>
+                    <div class="col-sm-6"><input type="text" class="form-control mb-3" id="name" name="name" placeholder="Name" required></div>
+                    <div class="col-sm-6"><input type="text" class="form-control mb-3" id="email" name="email" placeholder="name" required></div>
                 </div>
                 <div class="row">
-                    <textarea class="form-control" placeholder="comments" name="comments" id="comments" rows="5"></textarea>
+                    <textarea class="form-control mb-3" placeholder="comments" name="comments" id="comments" rows="5"></textarea>
                 </div>
                 <div class="row">
-                   <div class="col-sm-12 form-group"> <button type="button" class="btn btn-outline-dark pull-right">Dark</button></div>
+                   <div class="col-sm-12 form-group"> <button type="button" class="btn btn-default pull-right mb-3">send</button></div>
                 </div>
-
             </div>
         </div>
-
     </div>
+    <!-----image of location-->
+    <img src="https://www.w3schools.com/w3images/map.jpg" alt="" srcset="">
+    <footer class="conatiner-fluid text-center mt-5">
+    <a href=""> <i class="fa fa-chevron-up" aria-hidden="true"></i></a>
+
+    </footer>
     
     
     
