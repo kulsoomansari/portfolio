@@ -31,6 +31,6 @@ function formatTime(now){
    var format = now.getHours() + '-' + now.getMinutes() + '-' + now.getSeconds(); 
     console.log("format", format)
 }
-formatTuime(now);
+formatTime(now);
 
 
