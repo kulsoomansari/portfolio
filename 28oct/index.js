@@ -76,6 +76,7 @@ function titleCase(str1){
 str2 = str2.join(" ")
 console.log(str2)
 }
+<<<<<<< HEAD
 var newstr = titleCase(str)
 // console.log(str)
 
@@ -95,3 +96,23 @@ var newstr = titleCase(str)
 // document.write(total);
 
 
+=======
+else { alert(`your number = ${num}
+    and it is negative`)}
+
+   function increment(argument){
+       var a = argument++;
+       return a;
+   }
+   var sum = increment(5);
+   document.write(sum);
+document.write("<br>");
+   function decrement(argument1,argument2,argument3){
+    var a = argument1-- + argument2 + --argument3;
+    return a;
+}
+var total = decrement(5,6,8);
+document.write(total);
+var newstr = titleCase(str)
+// console.log(str)
+>>>>>>> 6be718ff205c0ea347e7c657f1d7cdca9bbb3bb9
