@@ -32,7 +32,7 @@ break;
 function todoList(){
     var li = document.createElement('li');
     var textLi = li.createTextNode('attend class')
+    
     li.appendChild(textLi)
-    var input = document.getElementById('myInput')
     li.appendChild(li)
 } 
