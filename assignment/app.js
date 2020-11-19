@@ -1,3 +1,11 @@
+//     function beforeChild(){
+//     var d = document.getElementById("div1")
+//     var c = document.createElement("p")
+//     var t = document.createTextNode("hello world")
+//     c.appendChild(t)
+//     paragraph2 = d.lastChild;
+//     d.insertBefore(c, paragraph2);
+// }
 // var a =[ ];
 // for(var i=0; i<2; i++){
 //     var b = prompt("enter sentence")
@@ -18,3 +26,21 @@
 // }
 // var z = titleCase()
 // console.log(z)
+//question 6
+// var x = [2,4,6,8,10];
+// const double = () =>{
+//     for(let i =0; i<x.length; i++){
+//         x[i] = x[i]*2
+//     }
+//     return x
+// }
+// var t = double()
+// console.log(t)
+var q = [2,4,6,8,10]
+const double1 = () =>{
+    q.forEach((item) =>{
+        return item*2
+    })
+}
+var s = double1()
+console.log(s)
