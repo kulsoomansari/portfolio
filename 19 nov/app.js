@@ -2,11 +2,8 @@
 // var obj = {name:'kulsoom', status:'active'}
 // let {name,status} = obj
 // console.log(name,",",status)
-// //destructuring of array
-// var arr =[1,2,3]
-// let [a,b,c] = arr
-// console.log(a,b,c)
-// //try and catch
+//destructuring of array
+//try and catch
 // function addalert(){
 //     console.log("good morning")
 // }
@@ -32,9 +29,9 @@
 //     a++
 // document.getElementById('aa').innerHTML= a
 // }
-//clock
+//clock (setInterval)
 const click3 = () =>{
-    setInterval(display, 1000)
+setInterval(display, 1000)
 }
 const display = () =>{
 var date = new Date()

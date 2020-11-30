@@ -36,9 +36,12 @@
 // }
 // var t = double()
 // console.log(t)
-var q = [2,4,6,8,10]
-const double1 = () =>{
-    q.forEach(item => 
-        console.log(item*2))
+// var q = [2,4,6,8,10]
+// const double1 = () =>{
+//     q.forEach(item => 
+//         console.log(item*2))
+// }
+// double1()
+const todo = () =>{
+    
 }
-double1()
