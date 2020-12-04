@@ -42,6 +42,17 @@
 //         console.log(item*2))
 // }
 // double1()
-const todo = () =>{
+// const todo = () =>{
     
+// }
+function Plan(name, price, space, transfer, pages) {
+    this.doc = name;
+    this.grumpy = price;
+    this.sleepy = space;
+    this.bashful = transfer;
+    this.sneezy = pages;
 }
+var plan1 = new Plan("Basic", 3.99, 100, 1000, 10);
+console.log(plan1)
+var x = "doc" in plan1
+console.log(x)
